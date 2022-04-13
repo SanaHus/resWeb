@@ -1,0 +1,66 @@
+.parent{
+    bottom: 0;
+    width: 90%;
+    height: 600px;
+    margin: 10px auto;
+}
+.blocks{
+    display: inline-block;;
+	height: 25px;
+}
+
+#stage0 {
+    border: 1px solid red;
+    float: left;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#stage1{
+    border: 1px solid green;
+    float: left;
+    margin-left: 5%;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#stage2{
+    border: 1px solid blue;
+    float: left;
+    margin-left: 5%;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#block5{
+    <p style="text-align: center; color: black;">■</p>
+}
+
+#block4{
+    <p style="text-align: center; color: violet;">■ ■ ■</p>
+}
+
+#block3{
+    <p style="text-align: center; color: blue;">■ ■ ■ ■ ■</p>
+}
+
+#block2{
+    <p style="text-align: center; color: green;">■ ■ ■ ■ ■ ■ ■</p>
+}
+
+#block1{
+    <p style="text-align: center; color: yellow;">■ ■ ■ ■ ■ ■ ■ ■ ■</p>
+}
+
+#block0{
+    <p style="text-align: center; color: red;">■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ </p>
+}
